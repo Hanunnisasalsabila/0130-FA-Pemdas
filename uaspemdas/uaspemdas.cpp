@@ -1,11 +1,33 @@
-/*! \mainpage Sistem Penilaian
-
-
+/*! \mainpage Sistem Penilaian Dua Mata Kuliah
+* \section intro_sec Pengantar
+* Selamat datang di dokumentasi Sistem Penilaian Dua Mata Kuliah.
+* Sistem ini dirancang untuk menilai hasil akhir apakah Lulus atau tidak lulus
+*
+* \section structure_sec Struktur Pilihan
+*  terdiri dari tiga Pilihan utama:
+* - \b Pemrograman
+* - \b Jaringan
+* - \b Keluar
+*
+* \section author_sec Tentang Pengembang
+* Sistem ini dikembangkan oleh HanunNisaSalsabila.id
+*
+* \section note_sec Catatan
+* Dokumentasi ini dihasilkan  menggunakan Doxygen. Pastikan untuk mengikuti komentar yang disediakan dalam kode untuk pemahaman yang lebih baik.
 */
 
+/**
+ * @file UASPemdas.cpp
+ * @brief Sistem Penilaian Dua Mata Kuliah.
+ */
 
 #include <iostream>
 using namespace std;
+
+/**
+ * @class MataKuliah
+ * @brief Kelas untuk menangani informasi tentang Mata Kuliah.
+ */
 
 class MataKuliah {
 private: string nilai;
@@ -69,5 +91,3 @@ int main()
 	}
 
 }
-
-// float
